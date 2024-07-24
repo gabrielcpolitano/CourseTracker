@@ -36,7 +36,7 @@ function addCourse(course) {
   courseElement.className = 'course';
   
   const courseTitle = document.createElement('h3');
-  courseTitle.textContent = `${course.name} (${course.watched}/${course.total} lessons)`;
+  courseTitle.textContent = `${course.name} (${course.watched}/${course.total} páginas)`;
   
   const progressBarContainer = document.createElement('div');
   progressBarContainer.className = 'progress-bar';
