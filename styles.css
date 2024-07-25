@@ -156,9 +156,10 @@ body.dark-mode .progress-bar-fill {
 }
 
 #toggleTheme {
-  position: relative;
-  top: -65px;
+  margin: 10px;
   height: 50px;
+  
+  padding: 10px 20px;
 
 
 }
